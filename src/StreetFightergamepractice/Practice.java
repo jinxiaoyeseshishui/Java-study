@@ -36,8 +36,8 @@ public class Practice {
         //第二次技能攻击敌方剩余血量
         double second_attack_damage_health = remainingHealthAfterFirstAttack - player_skill_damage;
         //输出
-        System.out.println("我方技能伤害：" +player_skill_damage + ",我方普攻伤害：" + player_basic_attack_damage + ".");
-        System.out.println("敌方技能伤害：" +opponent_skill_damage + ",敌方普攻伤害：" + opponent_basic_attack_damage + ".");
+        System.out.println("我方" + player + "：我方技能伤害：" +player_skill_damage + ",我方普攻伤害：" + player_basic_attack_damage + ".");
+        System.out.println("敌方" + opponent +"：敌方技能伤害：" +opponent_skill_damage + ",敌方普攻伤害：" + opponent_basic_attack_damage + ".");
         System.out.println("敌方第一次受到普攻伤害剩余血量：" + remainingHealthAfterFirstAttack  + ",敌方第二次受到技能伤害剩余血量：" + second_attack_damage_health);
     }
 }
